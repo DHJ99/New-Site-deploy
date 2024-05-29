@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+body{
+    background-image: url(Img/img5.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*
+h1{
+    background-color: black;
+    text-align: center; 
+    color: rgb(200, 55, 255);
+    font-family: "Jacquard 12", system-ui;
+}
+p{
+    background-color: black;
+    color: rgb(200, 55, 255);
+}*/
+#sampleID{
+    background-color: black;
+    text-align: center; 
+    color: rgb(200, 55, 255);
+    font-family: "Jacquard 12", system-ui;
+}
+.sample_class{
+    background-color: white;
+    text-align: center; 
+    color: rgb(200, 55, 255);
+    font-family: "Jacquard 12", system-ui;
+}
+p{
+    background-color: black ;
+    filter:brightness();
+    color: rgb(238, 233, 240);
+}
+.box01{
+    width: 120px;
+    height: 100px;
+    background-color: red;
+    position: sticky;
+    top: 450px;
+    z-index: 1;
+    opacity: 0.8;
+}
+.box02{
+    width: 150px;
+    height: 75px;
+    background-color:blue;
+    position: relative;
+    top: 150px;
+}
